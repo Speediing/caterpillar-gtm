@@ -71,7 +71,7 @@ export type StoryVisual =
       kind: "procurement-email";
       sender: string;
       subject: string;
-      questions: number;
+      questions: number | string;
     }
   | {
       kind: "answers-found";

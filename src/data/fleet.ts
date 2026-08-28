@@ -13,7 +13,7 @@ export type FleetBot = {
 export const FLEET: FleetBot[] = [
   {
     id: "rep",
-    name: "Every sales rep",
+    name: "Every Caterpillar seller",
     blurb: "The human stays in control. Their agents keep the surrounding work moving.",
     color: "#E8E8ED",
     mark: "AE",
@@ -21,15 +21,15 @@ export const FLEET: FleetBot[] = [
   },
   {
     id: "inbox",
-    name: "Inbox agent",
-    blurb: "Watches procurement. Finds answers overnight before the rep opens Gmail.",
+    name: "Product answers",
+    blurb: "Watches for customer questions and prepares sourced answers.",
     jobId: "legal-redlines",
     color: "#FF375F",
   },
   {
     id: "cross-sell",
-    name: "Outbound agent",
-    blurb: "Watches target accounts. Builds the 3-why and queues personalized drafts.",
+    name: "Account signals",
+    blurb: "Watches public project signals and prepares account briefs.",
     jobId: "attach-engine",
     color: "#FF9500",
   },

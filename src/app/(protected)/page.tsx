@@ -23,12 +23,12 @@ export default function HomePage() {
           <HeroTelemetry />
           <section className="hero">
             <div>
-              <p className="eyebrow">A proactive agent for every Datadog rep</p>
-              <h1>The agents that work while your reps sell.</h1>
+              <p className="eyebrow">A proactive agent for every Caterpillar seller</p>
+              <h1>The agents that work while your team sells.</h1>
               <p className="hero-intro">
-                Grok Bot listens to calls, watches the inbox, and researches
-                accounts in the background. Work triggers it — not another
-                prompt.
+                Grok Bot follows customer calls, watches for product and
+                service questions, and researches public account signals in
+                the background. Work starts it, not another prompt.
               </p>
             </div>
           </section>
@@ -37,10 +37,10 @@ export default function HomePage() {
             <p className="eyebrow">Three sample use cases</p>
             <h2>
               Grok Bot gives every seller their own fleet of always-available
-              agent teammates. Anything your sellers do today can be done
-              through Grok Bot.
+              agents with computers. They prepare useful work while the seller
+              stays with the customer.
             </h2>
-            <p>These are three examples from millions — not the boundary.</p>
+            <p>These are three examples, not the boundary.</p>
           </section>
 
           <div className="metric-grid">
@@ -79,15 +79,13 @@ export default function HomePage() {
 
       <footer className="site-footer">
         <div>
-          <p className="footer-title">Cursor for Datadog</p>
-          <p>Grok Bot for Datadog sales</p>
+          <p className="footer-title">Cursor for Caterpillar</p>
+          <p>Grok Bot for Caterpillar sales</p>
         </div>
         <address className="footer-contact">
-          <p>Datadog&apos;s existing Cursor contact</p>
-          <strong>Madeline Ingleby</strong>
-          <a href="mailto:madeline.ingleby@cursor.com">
-            madeline.ingleby@cursor.com
-          </a>
+          <p>Caterpillar&apos;s Cursor contact</p>
+          <strong>Brian Fox</strong>
+          <a href="mailto:brian.fox@cursor.com">brian.fox@cursor.com</a>
         </address>
       </footer>
     </main>

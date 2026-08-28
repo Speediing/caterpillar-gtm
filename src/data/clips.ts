@@ -17,18 +17,18 @@ function clip(
 export const CLIPS: Record<ClipId, Clip> = {
   "01-morning-inbox": clip(
     "01-morning-inbox",
-    "Morning inbox",
-    "7:30am weekday scan. Flags what needs a reply. Quiet if the inbox is empty.",
+    "Customer question",
+    "A new question starts a search across product and service sources.",
   ),
   "02-prospecting-pg": clip(
     "02-prospecting-pg",
-    "Prospecting",
-    "Five drafted emails. None send until she says so.",
+    "Public project research",
+    "Public evidence becomes an account brief and a first-message draft.",
   ),
   "03-slides-granola": clip(
     "03-slides-granola",
-    "Slides from the room",
-    "Granola is in. Slides writes the What we heard cards while she is still on the call.",
+    "Brief from the room",
+    "Granola is in. The customer brief updates while the call is still live.",
   ),
   "04-engineer-bugbot": clip(
     "04-engineer-bugbot",

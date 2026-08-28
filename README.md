@@ -1,10 +1,10 @@
-# Grok Bot for Datadog GTM
+# Caterpillar x SpaceXAI
 
-Passworded site. Grok Bot from SpaceXAI, for Datadog GTM.
+Passworded customer leave-behind for Caterpillar.
 
 ## What it is
 
-Three GTM jobs on one page. Each job has a short problem statement, an interactive Grok Bot demo, and the matching Krista Letz clips under that demo. Below that: a light index of the clips and the public Grok Bot quote wall.
+Three GTM jobs on one page. Each job has a short problem statement, an interactive Grok Bot demo, and the matching product clip. Below that are a product comparison and the public Grok Bot quote wall.
 
 ## Run locally
 
@@ -28,4 +28,4 @@ gh release download krista-gtm-clips-720p-2026-08-26 \
 
 ## Deploy
 
-Preview only under the `jasonwiker` Vercel team, project name `datadog-cro`. Set `SITE_PASSWORD=land2expand`. Do not promote to a public production domain until Jason says so.
+Deploy under the `jasonwiker` Vercel team with project name `caterpillar-grokbot`. Set `SITE_PASSWORD=land2expand`.

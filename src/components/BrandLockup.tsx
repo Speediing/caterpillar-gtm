@@ -1,3 +1,6 @@
+const CATERPILLAR_WORDMARK =
+  "https://s7d2.scene7.com/is/image/Caterpillar/CM20220222-5c3c2-280a8?fmt=png-alpha";
+
 export function BrandLockup({
   size = "md",
 }: {
@@ -6,12 +9,14 @@ export function BrandLockup({
 }) {
   return (
     <div className={`brand-lockup brand-lockup-${size}`}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/brand/datadog-wordmark.svg"
-        alt="Datadog"
-        className="brand-dd"
-      />
+      <object
+        data={CATERPILLAR_WORDMARK}
+        type="image/png"
+        aria-label="Caterpillar"
+        className="brand-cat"
+      >
+        <span>Caterpillar</span>
+      </object>
       <span className="brand-times" aria-hidden>
         ×
       </span>
